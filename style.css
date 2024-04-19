@@ -167,7 +167,7 @@ html {
     margin-top: 50px;
     margin-right: 30px;
     margin-left: 50px;
-    background-image: url("/my_portfolio/images/background_img.jpg");
+    background-image: url("images/background_img.jpg");
     background-size: cover;
 }
 
@@ -176,7 +176,7 @@ html {
     margin-top: 50px;
     margin-left: 30px;
     margin-right: 50px;
-    background-image: url("/my_portfolio/images/background_img.jpg");
+    background-image: url("background_img.jpg");
     background-size: cover;
 }
 
@@ -185,7 +185,7 @@ html {
     transform: scale(1.1);
     border-color: aqua;
     box-shadow: 0 0 12px aqua;
-    background-image: url("/my_portfolio/images/background_img_onhover.jpg");
+    background-image: url("images/background_img_onhover.jpg");
     background-size: cover;
 }
 
