@@ -514,78 +514,76 @@ img {
 a {
     text-decoration: none;
 }
-
-/* Media queries */
-@media only screen and (max-width: 1600px) {
-    .skills,
-    .projects,
-    .about {
-        width: 1000px;
-    }
-}
-
-@media only screen and (max-width: 1400px) {
-    .skills,
-    .projects,
-    .about {
-        width: 800px;
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-    .skills,
-    .projects,
-    .about {
-        width: 600px;
-    }
-}
-
-@media only screen and (max-width: 992px) {
-    .skills,
-    .projects,
-    .about {
+/*Media queries*/
+@media only screen and (max-width: 768px) {
+    .nav-bar {
         width: 100%;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .nav-bar ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-bar ul li {
+        margin: 10px 0;
+    }
+
+    .top_bar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .my_name {
         margin-left: 0;
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
-    .hi_box {
+    .skills_content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills_text {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .skills_images {
+        width: 100%;
+        margin-top: 30px;
+        justify-content: center;
+    }
+
+    .prog_lang,
+    .fswd {
+        margin: 10px;
+    }
+
+    .projects_content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projects-1,
+    .projects-2 {
         margin-left: 0;
+        margin-right: 0;
     }
 
-    .home__scroll {
-        margin-top: 300px;
+    .projects-1,
+    .projects-2 {
+        margin-top: 30px;
     }
 
-    .home__scroll-name {
-        font-size: 18px;
-    }
-
-    .mouse_img {
-        width: 20px;
-        height: 20px;
-    }
-
-    .home_typing {
-        margin-top: 0;
-    }
-
-    .home-p2 {
-        font-size: 18px;
-    }
-
-    .about_head {
-        padding-left: 0;
-        font-size: 30px;
-    }
-
-    .projects_head,
-    .skills_head {
-        font-size: 30px;
-    }
-
-    .contact_head {
-        margin-left: 0;
-        font-size: 25px;
+    .proj_img {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
